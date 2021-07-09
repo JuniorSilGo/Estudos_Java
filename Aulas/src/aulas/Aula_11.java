@@ -9,13 +9,16 @@ public class Aula_11{
         double base, altura, areaRetangulo;
         
         Scanner entrada = new Scanner(System.in);
-        areaRetangulo = base*altura;
         
         System.out.println("Entre com o valor da base: ");
+        base = entrada.nextDouble();
         
         System.out.println("Entre com o valor da altura: ");
+        altura = entrada.nextDouble();
         
-        System.out.println("A área do retângulo vale: "+areaRetangulo)
+        areaRetangulo = base * altura;
+        
+        System.out.println("A área do retângulo vale: "+areaRetangulo);
                 
     }
 }
